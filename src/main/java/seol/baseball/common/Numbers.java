@@ -17,6 +17,10 @@ public class Numbers {
 		numbers.add(number);
 	}
 
+	public void add(String number) {
+		add(Integer.parseInt(number));
+	}
+
 	public int size() {
 		return numbers.size();
 	}
@@ -25,4 +29,5 @@ public class Numbers {
 	public String toString() {
 		return numbers.toString();
 	}
+
 }
