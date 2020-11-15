@@ -1,5 +1,6 @@
 package seol.baseball.common;
 
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -23,6 +24,10 @@ public class Numbers {
 
 	public int size() {
 		return numbers.size();
+	}
+
+	public Iterator<Integer> iterator() {
+		return numbers.iterator();
 	}
 
 	@Override
