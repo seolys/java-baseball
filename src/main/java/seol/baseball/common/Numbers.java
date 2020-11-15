@@ -17,4 +17,12 @@ public class Numbers {
 		numbers.add(number);
 	}
 
+	public int size() {
+		return numbers.size();
+	}
+
+	@Override
+	public String toString() {
+		return numbers.toString();
+	}
 }
