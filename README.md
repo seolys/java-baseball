@@ -9,7 +9,7 @@
 * [과제 제출 방법](https://github.com/next-step/nextstep-docs/tree/master/precourse)
 
 ## 기능 목록
-* [ ] 타입 분류.
+* [x] 타입 분류.
 * [ ] 1부터 9까지 서로 다른 수로 이루어진 3자리의 수를 생성한다.
 * [ ] 게이머에게서 3자리 숫자를 입력받는다.
 * [ ] 입력 결과 체커 구현.
