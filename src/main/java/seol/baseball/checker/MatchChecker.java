@@ -5,6 +5,10 @@ import seol.baseball.common.GameResult;
 import seol.baseball.common.Numbers;
 import seol.baseball.common.PitchType;
 
+/**
+ * 숫자 매치여부 Checker.(실행결과)<br/>
+ * 같은 수가 같은 자리에 있으면 스트라이크, 다른 자리에 있으면 볼, 같은 수가 전혀 없으면 포볼 또는 낫싱이란 힌트를 얻고, 그 힌트를 이용해서 먼저 상대방(컴퓨터)의 수를 맞추면 승리한다.
+ */
 public class MatchChecker {
 
 	public GameResult checkNumbers(Numbers answerNumbers, Numbers inputNumbers) {

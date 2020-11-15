@@ -1,10 +1,12 @@
 package seol.baseball.view;
 
-
 import java.util.Scanner;
 import seol.baseball.common.CommandType;
 
-public class GameExitView {
+/**
+ * 성공 시 View.
+ */
+public class GameCompleteView {
 
 	private Scanner scanner = new Scanner(System.in);
 
